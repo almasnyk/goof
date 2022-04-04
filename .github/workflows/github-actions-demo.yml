@@ -10,4 +10,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.91b59fda-a53f-43a1-b96f-1450c810ac92 }}
         with:
-          args: --severity-threshold=high
+          args: --severity-threshold=critical
